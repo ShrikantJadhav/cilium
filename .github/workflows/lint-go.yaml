@@ -45,7 +45,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@0ad9a0988b3973e851ab0a07adf248ec2e100376
+        uses: golangci/golangci-lint-action@639cd343e1d3b897ff35927a75193d57cfcba299
         with:
           version: v1.48.0
           skip-cache: true
